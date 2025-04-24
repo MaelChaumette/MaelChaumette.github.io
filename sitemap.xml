@@ -2,18 +2,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://mael.chaumette.github.io/</loc>
-        <lastmod>2024-07-20T00:00:00Z</lastmod>
+        <loc></loc>
+        <lastmod>2025-03-01T00:00:00Z</lastmod>
         <changefreq>daily</changefreq>
-        <priority>1.0
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc>https://mael.chaumette.github.io/publication/multilevelgpt/</loc>
+        <lastmod>2025-03-01T00:00:00Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5
         </priority>
     </url>
     
     <url>
         <loc></loc>
-        <lastmod>0001-01-01T00:00:00Z</lastmod>
+        <lastmod>2025-03-01T00:00:00Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc>https://mael.chaumette.github.io/publication-type/article/</loc>
+        <lastmod>2025-03-01T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc>https://mael.chaumette.github.io/publication/croquant/</loc>
+        <lastmod>2025-03-01T00:00:00Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc></loc>
+        <lastmod>2025-03-01T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc></loc>
+        <lastmod>2025-03-01T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc></loc>
+        <lastmod>2025-03-01T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc></loc>
+        <lastmod>2025-03-01T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc></loc>
+        <lastmod>2025-03-01T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc>https://mael.chaumette.github.io/publication_types/</loc>
+        <lastmod>2025-03-01T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc>https://mael.chaumette.github.io/publication/</loc>
+        <lastmod>2025-03-01T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc></loc>
+        <lastmod>2025-03-01T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc>https://mael.chaumette.github.io/</loc>
+        <lastmod>2024-07-20T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0
         </priority>
     </url>
     
@@ -27,30 +123,6 @@
     
     <url>
         <loc>https://mael.chaumette.github.io/categories/</loc>
-        <lastmod>0001-01-01T00:00:00Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5
-        </priority>
-    </url>
-    
-    <url>
-        <loc></loc>
-        <lastmod>0001-01-01T00:00:00Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5
-        </priority>
-    </url>
-    
-    <url>
-        <loc>https://mael.chaumette.github.io/publication_types/</loc>
-        <lastmod>0001-01-01T00:00:00Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5
-        </priority>
-    </url>
-    
-    <url>
-        <loc>https://mael.chaumette.github.io/publication/</loc>
         <lastmod>0001-01-01T00:00:00Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5

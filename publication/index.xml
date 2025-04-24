@@ -5,12 +5,28 @@
     <link>https://mael.chaumette.github.io/publication/</link>
       <atom:link href="https://mael.chaumette.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://mael.chaumette.github.io/media/icon_hu_7613a4a452ac7087.png</url>
+      <url>https://mael.chaumette.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://mael.chaumette.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>A multilevel approach to accelerate the training for Transformers</title>
+      <link>https://mael.chaumette.github.io/publication/multilevelgpt/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://mael.chaumette.github.io/publication/multilevelgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CROQuant: Complex Rank-One Quantization Algorithm</title>
+      <link>https://mael.chaumette.github.io/publication/croquant/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://mael.chaumette.github.io/publication/croquant/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -285,12 +285,12 @@
 
   
 
-<meta name="description" content="" />
+<meta name="description" content="In this article, we investigate the potential of multilevel approaches to accelerate the training of transformer architectures. Using an ordinary differential equation (ODE) interpretation of these architectures, we propose an appropriate way of varying the discretization of these ODE Transformers in order to accelerate the training. We validate our approach experimentally by a comparison with the standard training procedure." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://mael.chaumette.github.io/teaching/algo1/" />
-<link rel="canonical" href="https://mael.chaumette.github.io/teaching/algo1/" />
+<link rel="alternate" hreflang="en-us" href="https://mael.chaumette.github.io/publication/multilevelgpt/" />
+<link rel="canonical" href="https://mael.chaumette.github.io/publication/multilevelgpt/" />
 
 
 
@@ -327,38 +327,86 @@
 
   
 
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
 <meta property="og:site_name" content="Maël Chaumette" />
-<meta property="og:url" content="https://mael.chaumette.github.io/teaching/algo1/" />
-<meta property="og:title" content="Algorithms 1 L3 | Maël Chaumette" />
-<meta property="og:description" content="" /><meta property="og:image" content="https://mael.chaumette.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://mael.chaumette.github.io/publication/multilevelgpt/" />
+<meta property="og:title" content="A multilevel approach to accelerate the training for Transformers | Maël Chaumette" />
+<meta property="og:description" content="In this article, we investigate the potential of multilevel approaches to accelerate the training of transformer architectures. Using an ordinary differential equation (ODE) interpretation of these architectures, we propose an appropriate way of varying the discretization of these ODE Transformers in order to accelerate the training. We validate our approach experimentally by a comparison with the standard training procedure." /><meta property="og:image" content="https://mael.chaumette.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2025-01-01T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2025-03-01T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://mael.chaumette.github.io/publication/multilevelgpt/"
+  },
+  "headline": "A multilevel approach to accelerate the training for Transformers",
+  
+  "datePublished": "2025-01-01T00:00:00Z",
+  "dateModified": "2025-03-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Guillaume Lauga"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Maël Chaumette",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://mael.chaumette.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "In this article, we investigate the potential of multilevel approaches to accelerate the training of transformer architectures. Using an ordinary differential equation (ODE) interpretation of these architectures, we propose an appropriate way of varying the discretization of these ODE Transformers in order to accelerate the training. We validate our approach experimentally by a comparison with the standard training procedure."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
 
   
   
 
-
-
-
-
-
-
-  
-
-
-
-
-  
-  
-  
-
-  
-  
-
   
 
 
   
-  <title>Algorithms 1 L3 | Maël Chaumette</title>
+  <title>A multilevel approach to accelerate the training for Transformers | Maël Chaumette</title>
 
   
   
@@ -378,7 +426,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="dc228c085ddf4e4ac8697470bf2b36c1" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="6787212e8cd571d8e419545c0617b8ea" >
 
   
   
@@ -648,7 +696,16 @@
     
     
 
-    <article class="article">
+    
+
+
+  
+    
+    
+  
+
+
+<div class="pub">
 
   
 
@@ -670,7 +727,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Algorithms 1 L3</h1>
+  <h1>A multilevel approach to accelerate the training for Transformers</h1>
 
   
 
@@ -682,6 +739,20 @@
 
   
   
+  
+  
+  <div>
+    
+
+  <span >
+      Guillaume Lauga</span>, <span class="author-highlighted">
+      Maël Chaumette</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Edgar Desainte-Maréville</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Étienne Lassalle</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Arthur Lebeurrier</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+  </div>
+  
+  
 
   
   <span class="article-date">
@@ -689,7 +760,7 @@
     
       
     
-    Jul 10, 1010
+    March, 2025
   </span>
   
 
@@ -712,6 +783,43 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="/publication/multilevelgpt/multilevelGPT.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -720,9 +828,47 @@
 
   <div class="article-container">
 
-    <div class="article-style">
-      
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">In this article, we investigate the potential of multilevel approaches to accelerate the training of transformer architectures. Using an ordinary differential equation (ODE) interpretation of these architectures, we propose an appropriate way of varying the discretization of these ODE Transformers in order to accelerate the training. We validate our approach experimentally by a comparison with the standard training procedure.</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#article">
+              Preprint
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Submitted to <em>GRETSI</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
 
     
 
@@ -747,7 +893,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmael.chaumette.github.io%2Fteaching%2Falgo1%2F&amp;text=Algorithms&#43;1&#43;L3" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmael.chaumette.github.io%2Fpublication%2Fmultilevelgpt%2F&amp;text=A&#43;multilevel&#43;approach&#43;to&#43;accelerate&#43;the&#43;training&#43;for&#43;Transformers" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -764,7 +910,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fmael.chaumette.github.io%2Fteaching%2Falgo1%2F&amp;t=Algorithms&#43;1&#43;L3" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fmael.chaumette.github.io%2Fpublication%2Fmultilevelgpt%2F&amp;t=A&#43;multilevel&#43;approach&#43;to&#43;accelerate&#43;the&#43;training&#43;for&#43;Transformers" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -783,7 +929,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Algorithms%201%20L3&amp;body=https%3A%2F%2Fmael.chaumette.github.io%2Fteaching%2Falgo1%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=A%20multilevel%20approach%20to%20accelerate%20the%20training%20for%20Transformers&amp;body=https%3A%2F%2Fmael.chaumette.github.io%2Fpublication%2Fmultilevelgpt%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -800,7 +946,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fmael.chaumette.github.io%2Fteaching%2Falgo1%2F&amp;title=Algorithms&#43;1&#43;L3" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fmael.chaumette.github.io%2Fpublication%2Fmultilevelgpt%2F&amp;title=A&#43;multilevel&#43;approach&#43;to&#43;accelerate&#43;the&#43;training&#43;for&#43;Transformers" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -817,7 +963,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Algorithms&#43;1&#43;L3%20https%3A%2F%2Fmael.chaumette.github.io%2Fteaching%2Falgo1%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=A&#43;multilevel&#43;approach&#43;to&#43;accelerate&#43;the&#43;training&#43;for&#43;Transformers%20https%3A%2F%2Fmael.chaumette.github.io%2Fpublication%2Fmultilevelgpt%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -834,7 +980,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fmael.chaumette.github.io%2Fteaching%2Falgo1%2F&amp;title=Algorithms&#43;1&#43;L3" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fmael.chaumette.github.io%2Fpublication%2Fmultilevelgpt%2F&amp;title=A&#43;multilevel&#43;approach&#43;to&#43;accelerate&#43;the&#43;training&#43;for&#43;Transformers" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -854,6 +1000,13 @@
 
   
   
+    
+
+
+
+
+  
+    
 
 
 
@@ -950,6 +1103,25 @@
   </div>
 
 
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
 
 
 
@@ -967,7 +1139,7 @@
 
 
   </div>
-</article>
+</div>
   </div>
 
   <div class="page-footer">
