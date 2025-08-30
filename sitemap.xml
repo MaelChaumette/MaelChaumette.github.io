@@ -2,6 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://mael.chaumette.github.io/talk/croquant-complex-rank-one-quantization-algorithm/</loc>
+        <lastmod>2025-06-26T14:45:00Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc>https://mael.chaumette.github.io/event/</loc>
+        <lastmod>2025-06-26T14:45:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
         <loc></loc>
         <lastmod>2025-03-01T00:00:00Z</lastmod>
         <changefreq>daily</changefreq>
@@ -19,14 +35,6 @@
     
     <url>
         <loc></loc>
-        <lastmod>2025-03-01T00:00:00Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5
-        </priority>
-    </url>
-    
-    <url>
-        <loc>https://mael.chaumette.github.io/publication-type/article/</loc>
         <lastmod>2025-03-01T00:00:00Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5
@@ -75,6 +83,14 @@
     
     <url>
         <loc></loc>
+        <lastmod>2025-03-01T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc>https://mael.chaumette.github.io/publication-type/paper-conference/</loc>
         <lastmod>2025-03-01T00:00:00Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5
@@ -131,14 +147,6 @@
     
     <url>
         <loc>https://mael.chaumette.github.io/tags/</loc>
-        <lastmod>0001-01-01T00:00:00Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5
-        </priority>
-    </url>
-    
-    <url>
-        <loc>https://mael.chaumette.github.io/event/</loc>
         <lastmod>0001-01-01T00:00:00Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5

@@ -5,12 +5,37 @@
     <link>https://mael.chaumette.github.io/event/</link>
       <atom:link href="https://mael.chaumette.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Jun 2025 14:45:00 +0000</lastBuildDate>
     <image>
       <url>https://mael.chaumette.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Talks</title>
       <link>https://mael.chaumette.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>CROQuant: Complex Rank-One Quantization Algorithm</title>
+      <link>https://mael.chaumette.github.io/talk/croquant-complex-rank-one-quantization-algorithm/</link>
+      <pubDate>Thu, 26 Jun 2025 14:45:00 +0000</pubDate>
+      <guid>https://mael.chaumette.github.io/talk/croquant-complex-rank-one-quantization-algorithm/</guid>
+      <description>&lt;!--
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Hugo Blox Builder&#39;s [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
+
+Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
