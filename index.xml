@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>CROQuant: Complex Rank-One Quantization Algorithm, with Application to Butterfly Factorizations</title>
+      <link>https://mael.chaumette.github.io/publication/croquant_journal/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://mael.chaumette.github.io/publication/croquant_journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning L3</title>
+      <link>https://mael.chaumette.github.io/teaching/ml/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://mael.chaumette.github.io/teaching/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CROQuant: Complex Rank-One Quantization Algorithm</title>
       <link>https://mael.chaumette.github.io/talk/croquant-complex-rank-one-quantization-algorithm/</link>
       <pubDate>Thu, 06 Nov 2025 14:45:00 +0000</pubDate>
@@ -81,7 +97,7 @@ Further event details, including [page elements](https://docs.hugoblox.com/refer
     <item>
       <title>Algorithms 1 L3</title>
       <link>https://mael.chaumette.github.io/teaching/algo1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://mael.chaumette.github.io/teaching/algo1/</guid>
       <description></description>
     </item>

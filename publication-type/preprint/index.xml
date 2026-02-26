@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preprint | Maël Chaumette</title>
+    <link>https://mael.chaumette.github.io/publication-type/preprint/</link>
+      <atom:link href="https://mael.chaumette.github.io/publication-type/preprint/index.xml" rel="self" type="application/rss+xml" />
+    <description>Preprint</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mael.chaumette.github.io/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>Preprint</title>
+      <link>https://mael.chaumette.github.io/publication-type/preprint/</link>
+    </image>
+    
+    <item>
+      <title>CROQuant: Complex Rank-One Quantization Algorithm, with Application to Butterfly Factorizations</title>
+      <link>https://mael.chaumette.github.io/publication/croquant_journal/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://mael.chaumette.github.io/publication/croquant_journal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

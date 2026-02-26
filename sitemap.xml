@@ -2,6 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc></loc>
+        <lastmod>2026-02-17T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc>https://mael.chaumette.github.io/publication/croquant_journal/</loc>
+        <lastmod>2026-02-17T00:00:00Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc></loc>
+        <lastmod>2026-02-17T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc></loc>
+        <lastmod>2026-02-17T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc>https://mael.chaumette.github.io/publication-type/preprint/</loc>
+        <lastmod>2026-02-17T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc>https://mael.chaumette.github.io/publication_types/</loc>
+        <lastmod>2026-02-17T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc>https://mael.chaumette.github.io/publication/</loc>
+        <lastmod>2026-02-17T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc></loc>
+        <lastmod>2026-02-17T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc>https://mael.chaumette.github.io/teaching/ml/</loc>
+        <lastmod>2026-02-01T00:00:00Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
+        <loc>https://mael.chaumette.github.io/teaching/</loc>
+        <lastmod>2026-02-01T00:00:00Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5
+        </priority>
+    </url>
+    
+    <url>
         <loc>https://mael.chaumette.github.io/talk/croquant-complex-rank-one-quantization-algorithm/</loc>
         <lastmod>2025-11-06T14:45:00Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -21,14 +101,6 @@
         <loc>https://mael.chaumette.github.io/talk/croquant-complex-rank-one-quantization-algorithm/</loc>
         <lastmod>2025-08-26T14:45:00Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.5
-        </priority>
-    </url>
-    
-    <url>
-        <loc></loc>
-        <lastmod>2025-03-01T00:00:00Z</lastmod>
-        <changefreq>daily</changefreq>
         <priority>0.5
         </priority>
     </url>
@@ -82,22 +154,6 @@
     </url>
     
     <url>
-        <loc></loc>
-        <lastmod>2025-03-01T00:00:00Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5
-        </priority>
-    </url>
-    
-    <url>
-        <loc></loc>
-        <lastmod>2025-03-01T00:00:00Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5
-        </priority>
-    </url>
-    
-    <url>
         <loc>https://mael.chaumette.github.io/publication-type/paper-conference/</loc>
         <lastmod>2025-03-01T00:00:00Z</lastmod>
         <changefreq>daily</changefreq>
@@ -106,25 +162,9 @@
     </url>
     
     <url>
-        <loc>https://mael.chaumette.github.io/publication_types/</loc>
-        <lastmod>2025-03-01T00:00:00Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5
-        </priority>
-    </url>
-    
-    <url>
-        <loc>https://mael.chaumette.github.io/publication/</loc>
-        <lastmod>2025-03-01T00:00:00Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5
-        </priority>
-    </url>
-    
-    <url>
-        <loc></loc>
-        <lastmod>2025-03-01T00:00:00Z</lastmod>
-        <changefreq>daily</changefreq>
+        <loc>https://mael.chaumette.github.io/teaching/algo1/</loc>
+        <lastmod>2024-09-01T00:00:00Z</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.5
         </priority>
     </url>
@@ -138,14 +178,6 @@
     </url>
     
     <url>
-        <loc>https://mael.chaumette.github.io/teaching/algo1/</loc>
-        <lastmod>0001-01-01T00:00:00Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5
-        </priority>
-    </url>
-    
-    <url>
         <loc>https://mael.chaumette.github.io/categories/</loc>
         <lastmod>0001-01-01T00:00:00Z</lastmod>
         <changefreq>daily</changefreq>
@@ -155,14 +187,6 @@
     
     <url>
         <loc>https://mael.chaumette.github.io/tags/</loc>
-        <lastmod>0001-01-01T00:00:00Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5
-        </priority>
-    </url>
-    
-    <url>
-        <loc>https://mael.chaumette.github.io/teaching/</loc>
         <lastmod>0001-01-01T00:00:00Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5
