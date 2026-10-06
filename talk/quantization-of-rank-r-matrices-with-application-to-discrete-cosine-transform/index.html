@@ -285,12 +285,12 @@
 
   
 
-<meta name="description" content="" />
+<meta name="description" content="This work addresses the problem of quantizing a product of rank-r matrices based on a recently proposed optimal algorithm with r = 1, which exploits a rescaling-invariance property of the problem. We first show that the rescaling-invariance characterization used in the rank-one case extends to the general case, but leads to a NP-hard problem. Therefore, we propose two heuristics that use the optimal rank-one quantization algorithm as a building block. We further analyze the rescaling-invariance of both heuristics to alleviate the impact of overflow and underflow that arise in low-precision formats. We apply our framework to the quantization of the Discrete Cosine Transform and to the compression of images. In the first application, our heuristics outperform the naive round-to-nearest strategy, and in the second application, we provide a compression algorithm that achieves a better reconstruction than a similar and competing method, but with a larger compression ratio." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://mael.chaumette.github.io/teaching/ml/" />
-<link rel="canonical" href="https://mael.chaumette.github.io/teaching/ml/" />
+<link rel="alternate" hreflang="en-us" href="https://mael.chaumette.github.io/talk/quantization-of-rank-r-matrices-with-application-to-discrete-cosine-transform/" />
+<link rel="canonical" href="https://mael.chaumette.github.io/talk/quantization-of-rank-r-matrices-with-application-to-discrete-cosine-transform/" />
 
 
 
@@ -329,18 +329,18 @@
 
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Maël Chaumette" />
-<meta property="og:url" content="https://mael.chaumette.github.io/teaching/ml/" />
-<meta property="og:title" content="Machine Learning L3 | Maël Chaumette" />
-<meta property="og:description" content="" /><meta property="og:image" content="https://mael.chaumette.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://mael.chaumette.github.io/talk/quantization-of-rank-r-matrices-with-application-to-discrete-cosine-transform/" />
+<meta property="og:title" content="Quantization of rank-$r$ matrices, with Application to Discrete Cosine Transform | Maël Chaumette" />
+<meta property="og:description" content="This work addresses the problem of quantizing a product of rank-r matrices based on a recently proposed optimal algorithm with r = 1, which exploits a rescaling-invariance property of the problem. We first show that the rescaling-invariance characterization used in the rank-one case extends to the general case, but leads to a NP-hard problem. Therefore, we propose two heuristics that use the optimal rank-one quantization algorithm as a building block. We further analyze the rescaling-invariance of both heuristics to alleviate the impact of overflow and underflow that arise in low-precision formats. We apply our framework to the quantization of the Discrete Cosine Transform and to the compression of images. In the first application, our heuristics outperform the naive round-to-nearest strategy, and in the second application, we provide a compression algorithm that achieves a better reconstruction than a similar and competing method, but with a larger compression ratio." /><meta property="og:image" content="https://mael.chaumette.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2026-02-01T00:00:00&#43;00:00"
+      content="2017-01-01T00:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2026-02-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2026-10-01T14:45:00&#43;00:00">
   
 
 
@@ -350,6 +350,40 @@
 
 
   
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://mael.chaumette.github.io/talk/quantization-of-rank-r-matrices-with-application-to-discrete-cosine-transform/"
+  },
+  "name": "Quantization of rank-$r$ matrices, with Application to Discrete Cosine Transform",
+  
+  "location": {
+    "@type": "Place",
+    "name": "Lyon, 69000"
+  },
+  
+  
+  "startDate": "2026-10-01T14:45:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Maël Chaumette"
+  },
+  
+  "description": "This work addresses the problem of quantizing a product of rank-r matrices based on a recently proposed optimal algorithm with r = 1, which exploits a rescaling-invariance property of the problem. We first show that the rescaling-invariance characterization used in the rank-one case extends to the general case, but leads to a NP-hard problem. Therefore, we propose two heuristics that use the optimal rank-one quantization algorithm as a building block. We further analyze the rescaling-invariance of both heuristics to alleviate the impact of overflow and underflow that arise in low-precision formats. We apply our framework to the quantization of the Discrete Cosine Transform and to the compression of images. In the first application, our heuristics outperform the naive round-to-nearest strategy, and in the second application, we provide a compression algorithm that achieves a better reconstruction than a similar and competing method, but with a larger compression ratio."
+}
+</script>
+
+  
 
 
 
@@ -365,7 +399,7 @@
 
 
   
-  <title>Machine Learning L3 | Maël Chaumette</title>
+  <title>Quantization of rank-$r$ matrices, with Application to Discrete Cosine Transform | Maël Chaumette</title>
 
   
   
@@ -385,7 +419,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="ea0e09fa0b4d7aa7c3a96a353c4a3808" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="5abd088b8f909d33798229661ddd25bd" >
 
   
   
@@ -692,7 +726,7 @@
     
     
 
-    <article class="article">
+    <div class="pub">
 
   
 
@@ -714,7 +748,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Machine Learning L3</h1>
+  <h1>Quantization of rank-$r$ matrices, with Application to Discrete Cosine Transform</h1>
 
   
 
@@ -728,14 +762,6 @@
   
 
   
-  <span class="article-date">
-    
-    
-      
-    
-    Feb 1, 2026
-  </span>
-  
 
   
 
@@ -755,6 +781,47 @@
 
 
 
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/uploads/QuantRankR.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+</div>
 
 
   
@@ -764,8 +831,79 @@
 
   <div class="article-container">
 
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract">This work addresses the problem of quantizing a product of rank-r matrices based on a recently proposed optimal algorithm with r = 1, which exploits a rescaling-invariance property of the problem. We first show that the rescaling-invariance characterization used in the rank-one case extends to the general case, but leads to a NP-hard problem. Therefore, we propose two heuristics that use the optimal rank-one quantization algorithm as a building block. We further analyze the rescaling-invariance of both heuristics to alleviate the impact of overflow and underflow that arise in low-precision formats. We apply our framework to the quantization of the Discrete Cosine Transform and to the compression of images. In the first application, our heuristics outperform the naive round-to-nearest strategy, and in the second application, we provide a compression algorithm that achieves a better reconstruction than a similar and competing method, but with a larger compression ratio.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Oct 1, 2026 2:45 PM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://stop.sciencesconf.org" target="_blank" rel="noopener">
+            STOP 2026
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">Lyon, 69000</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
     <div class="article-style">
-      
+      <!--
+
+
+<div class="alert alert-note">
+  <div>
+    Click on the <strong>Slides</strong> button above to view the built-in slides feature.
+  </div>
+</div>
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
+
+Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page. -->
+
     </div>
 
     
@@ -791,7 +929,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmael.chaumette.github.io%2Fteaching%2Fml%2F&amp;text=Machine&#43;Learning&#43;L3" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmael.chaumette.github.io%2Ftalk%2Fquantization-of-rank-r-matrices-with-application-to-discrete-cosine-transform%2F&amp;text=Quantization&#43;of&#43;rank-%24r%24&#43;matrices%2C&#43;with&#43;Application&#43;to&#43;Discrete&#43;Cosine&#43;Transform" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -808,7 +946,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fmael.chaumette.github.io%2Fteaching%2Fml%2F&amp;t=Machine&#43;Learning&#43;L3" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fmael.chaumette.github.io%2Ftalk%2Fquantization-of-rank-r-matrices-with-application-to-discrete-cosine-transform%2F&amp;t=Quantization&#43;of&#43;rank-%24r%24&#43;matrices%2C&#43;with&#43;Application&#43;to&#43;Discrete&#43;Cosine&#43;Transform" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -827,7 +965,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Machine%20Learning%20L3&amp;body=https%3A%2F%2Fmael.chaumette.github.io%2Fteaching%2Fml%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Quantization%20of%20rank-%24r%24%20matrices%2C%20with%20Application%20to%20Discrete%20Cosine%20Transform&amp;body=https%3A%2F%2Fmael.chaumette.github.io%2Ftalk%2Fquantization-of-rank-r-matrices-with-application-to-discrete-cosine-transform%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -844,7 +982,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fmael.chaumette.github.io%2Fteaching%2Fml%2F&amp;title=Machine&#43;Learning&#43;L3" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fmael.chaumette.github.io%2Ftalk%2Fquantization-of-rank-r-matrices-with-application-to-discrete-cosine-transform%2F&amp;title=Quantization&#43;of&#43;rank-%24r%24&#43;matrices%2C&#43;with&#43;Application&#43;to&#43;Discrete&#43;Cosine&#43;Transform" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -861,7 +999,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Machine&#43;Learning&#43;L3%20https%3A%2F%2Fmael.chaumette.github.io%2Fteaching%2Fml%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Quantization&#43;of&#43;rank-%24r%24&#43;matrices%2C&#43;with&#43;Application&#43;to&#43;Discrete&#43;Cosine&#43;Transform%20https%3A%2F%2Fmael.chaumette.github.io%2Ftalk%2Fquantization-of-rank-r-matrices-with-application-to-discrete-cosine-transform%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -878,7 +1016,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fmael.chaumette.github.io%2Fteaching%2Fml%2F&amp;title=Machine&#43;Learning&#43;L3" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fmael.chaumette.github.io%2Ftalk%2Fquantization-of-rank-r-matrices-with-application-to-discrete-cosine-transform%2F&amp;title=Quantization&#43;of&#43;rank-%24r%24&#43;matrices%2C&#43;with&#43;Application&#43;to&#43;Discrete&#43;Cosine&#43;Transform" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1011,7 +1149,7 @@
 
 
   </div>
-</article>
+</div>
   </div>
 
   <div class="page-footer">
